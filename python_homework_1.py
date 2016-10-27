@@ -28,7 +28,7 @@ img_q1.save('Q1.jpg')
 
 #Q2
 img_q2 = Image.open('Penguins.jpg').convert('CMYK')
-width,heigh = img_q2.size
+width,height = img_q2.size
 piexl = img_q2.load()
 
 #print img_q2.mode
@@ -52,7 +52,7 @@ img_q2.save('Q2.jpg')
 
 #Q3
 img_q3 = Image.open('Penguins.jpg')
-width,heigh = img_q3.size
+width,height = img_q3.size
 piexl = img_q3.load()
 
 for i in xrange(width):
@@ -67,7 +67,7 @@ img_q3.save('Q3.jpg')
 
 #Q4
 img_q4 = Image.open('Penguins.jpg')
-width,heigh = img_q4.size
+width,height = img_q4.size
 piexl = img_q4.load()
 
 for i in xrange(width):
@@ -81,7 +81,7 @@ img_q4.save('Q4.jpg')
 
 #Q5-1
 img_q5_1 = Image.open('Penguins.jpg')
-width,heigh = img_q5_1.size
+width,height = img_q5_1.size
 piexl = img_q5_1.load()
 
 for i in xrange(width):
@@ -98,7 +98,7 @@ img_q5_1.save('Q5-1.jpg')
 
 #Q5-2
 img_q5_2 = Image.open('Penguins.jpg')
-width,heigh = img_q5_2.size
+width,height = img_q5_2.size
 piexl = img_q5_2.load()
 
 for i in xrange(width):
@@ -115,7 +115,7 @@ img_q5_2.save('Q5-2.jpg')
 
 #Q6-1
 img_q6_1 = Image.open('Penguins.jpg')
-width,heigh = img_q6_1.size
+width,height = img_q6_1.size
 piexl = img_q6_1.load()
 
 for i in xrange(width):
@@ -135,7 +135,7 @@ img_q6_1.save('Q6-1.jpg')
 
 #Q6-2
 img_q6_2 = Image.open('Penguins.jpg')
-width,heigh = img_q6_2.size
+width,height = img_q6_2.size
 piexl = img_q6_2.load()
 
 for i in xrange(width):
@@ -155,7 +155,7 @@ img_q6_2.save('Q6-2.jpg')
 
 #Q6-3
 img_q6_3 = Image.open('Penguins.jpg')
-width,heigh = img_q6_3.size
+width,height = img_q6_3.size
 piexl = img_q6_3.load()
 
 for i in xrange(width):
@@ -175,7 +175,7 @@ img_q6_3.save('Q6-3.jpg')
 
 #Q7-1 RGB->RBG
 img_q7_1 = Image.open('Penguins.jpg')
-width,heigh = img_q7_1.size
+width,height = img_q7_1.size
 piexl = img_q7_1.load()
 
 for i in xrange(width):
@@ -190,7 +190,7 @@ img_q7_1.save('Q7-1.jpg')
 
 #Q7-2 RGB->GRB
 img_q7_2 = Image.open('Penguins.jpg')
-width,heigh = img_q7_2.size
+width,height = img_q7_2.size
 piexl = img_q7_2.load()
 
 for i in xrange(width):
@@ -205,7 +205,7 @@ img_q7_2.save('Q7-2.jpg')
 
 #Q7-3 RGB->GBR
 img_q7_3 = Image.open('Penguins.jpg')
-width,heigh = img_q7_3.size
+width,height = img_q7_3.size
 piexl = img_q7_3.load()
 
 for i in xrange(width):
@@ -220,7 +220,7 @@ img_q7_3.save('Q7-3.jpg')
 
 #Q7-4 RGB->BRG
 img_q7_4 = Image.open('Penguins.jpg')
-width,heigh = img_q7_4.size
+width,height = img_q7_4.size
 piexl = img_q7_4.load()
 
 for i in xrange(width):
@@ -235,7 +235,7 @@ img_q7_4.save('Q7-4.jpg')
 
 #Q7-5 RGB->BGR
 img_q7_5 = Image.open('Penguins.jpg')
-width,heigh = img_q7_5.size
+width,height = img_q7_5.size
 piexl = img_q7_5.load()
 
 for i in xrange(width):
@@ -250,7 +250,7 @@ img_q7_5.save('Q7-5.jpg')
 
 #Q8
 img_q8 = Image.open('Penguins.jpg')
-width,heigh = img_q8.size
+width,height = img_q8.size
 piexl = img_q8.load()
 
 for i in xrange(width):
@@ -267,7 +267,7 @@ img_q8.save('Q8.jpg')
 
 #Q9
 img_q9 = Image.open('Penguins.jpg')
-width,heigh = img_q9.size
+width,height = img_q9.size
 piexl = img_q9.load()
 
 for i in xrange(width-1):
@@ -291,7 +291,7 @@ img_q9.save('Q9.jpg')
 
 #Q10
 img_q10 = Image.open('Penguins_noise.jpg')
-width,heigh = img_q10.size
+width,height = img_q10.size
 piexl = img_q10.load()
 
 for i in xrange(1,width-1):
@@ -329,7 +329,7 @@ img_q10.save('Q10.jpg')
 
 #Q11-1 right to left
 img_q11_1 = Image.open('Penguins.jpg')
-width,heigh = img_q11_1.size
+width,height = img_q11_1.size
 piexl = img_q11_1.load()
 
 for i in xrange(width):
@@ -343,7 +343,7 @@ img_q11_1.save('Q11-1.jpg')
 
 #Q11-2 left to right
 img_q11_2 = Image.open('Penguins.jpg')
-width,heigh = img_q11_2.size
+width,height = img_q11_2.size
 piexl = img_q11_2.load()
 
 for i in xrange(width/2):
@@ -356,7 +356,7 @@ img_q11_2.save('Q11-2.jpg')
 
 #Q11-3 top to down
 img_q11_3 = Image.open('Penguins.jpg')
-width,heigh = img_q11_3.size
+width,height = img_q11_3.size
 box = (0,0,width,height/2)
 
 img_region = img_q11_3.crop(box)
@@ -370,7 +370,7 @@ img_q11_3.save('Q11-3.jpg')
 
 #Q11-4 down to top
 img_q11_4 = Image.open('Penguins.jpg')
-width,heigh = img_q11_4.size
+width,height = img_q11_4.size
 box = (0,height/2,width,height)
 
 img_region = img_q11_4.crop(box)
@@ -385,7 +385,7 @@ img_q11_4.save('Q11-4.jpg')
 #Q12
 img_elsa = Image.open('Elsa.jpg')
 img_background = Image.open('Chrysanthemum.jpg')
-width,heigh = img_elsa.size
+width,height = img_elsa.size
 img_background = img_background.resize((width,height))
 
 piexl_elsa = img_elsa.load()
